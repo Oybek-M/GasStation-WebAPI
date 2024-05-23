@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GasStation", "GasStation\GasStation.csproj", "{AE087D50-68CB-46E1-87FC-9CD8161D3390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GasStation.WebApi", "GasStation\GasStation.WebApi.csproj", "{AE087D50-68CB-46E1-87FC-9CD8161D3390}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GasStation.Domain", "GasStation.Domain\GasStation.Domain.csproj", "{3ED39BCF-3918-4855-92D4-15FA693B56D5}"
 EndProject

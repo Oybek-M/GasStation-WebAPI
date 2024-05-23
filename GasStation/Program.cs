@@ -1,5 +1,6 @@
+using GasStation.Data.DbContexts;
 using Microsoft.EntityFrameworkCore;
-using GasStation.Data.DbContext;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
