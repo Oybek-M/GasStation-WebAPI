@@ -37,6 +37,8 @@ public class AdminService(IUnitOfWork unitOfWork, IValidator<User> validator) : 
         user.Role = user.Role == UserRole.Admin ? UserRole.User : UserRole.Admin;
         await _unitOfWork.Users.UpdateAsync(user);
     }
+    
+    
 
     public async Task DeleteUserAsync(int id)
     {
